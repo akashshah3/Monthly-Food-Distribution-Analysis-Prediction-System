@@ -6,8 +6,8 @@ from pathlib import Path
 
 # Page configuration
 st.set_page_config(
-    page_title="Food Distribution Analysis Dashboard",
-    page_icon="🍽️",
+    page_title="Home - Food Distribution Dashboard",
+    page_icon="�",
     layout="wide",
     initial_sidebar_state="expanded"
 )

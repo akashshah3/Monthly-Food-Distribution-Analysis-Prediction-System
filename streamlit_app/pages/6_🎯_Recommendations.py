@@ -338,23 +338,6 @@ with tab3:
                     })
         st.plotly_chart(fig, use_container_width=True)
 
-# Action items checklist
-st.markdown("---")
-st.markdown("## ✅ Next Steps Checklist")
-
-checklist = [
-    "Review all recommendations with stakeholders",
-    "Prioritize quick wins (High Impact, Low Effort)",
-    "Allocate resources for Phase 1 implementation",
-    "Set up monitoring and KPI tracking",
-    "Schedule regular review meetings",
-    "Begin deploying automated prediction system",
-    "Train team on new processes and tools",
-    "Establish feedback loops for continuous improvement"
-]
-
-for item in checklist:
-    st.checkbox(item)
 
 # Footer
 st.markdown("---")

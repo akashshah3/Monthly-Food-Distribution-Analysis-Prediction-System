@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 3. **Run the dashboard**
 ```bash
-streamlit run app.py
+streamlit run 🏠_Home.py
 ```
 
 4. **Open your browser**
@@ -45,7 +45,7 @@ Ensure the dataset is available at:
 
 ```
 streamlit_app/
-├── app.py                           # Main landing page
+├── 🏠_Home.py                       # Main landing page
 ├── requirements.txt                 # Python dependencies
 ├── .streamlit/
 │   └── config.toml                  # Streamlit configuration
@@ -147,7 +147,7 @@ streamlit_app/
 1. Push your code to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your GitHub repository
-4. Set main file as `app.py`
+4. Set main file as `🏠_Home.py`
 5. Deploy!
 
 **Note**: Ensure `monthly-food-distribution-data.csv` is in the parent directory or update the path in `utils/data_loader.py`.
