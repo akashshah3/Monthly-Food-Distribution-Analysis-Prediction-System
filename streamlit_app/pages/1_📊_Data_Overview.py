@@ -97,6 +97,8 @@ if df is not None:
     with col1:
         dtype_counts = df.dtypes.value_counts().reset_index()
         dtype_counts.columns = ['Data Type', 'Count']
+        # Convert dtype objects to strings for JSON serialization
+        dtype_counts['Data Type'] = dtype_counts['Data Type'].astype(str)
         
         fig = px.pie(dtype_counts, values='Count', names='Data Type',
                     title='Column Data Types',

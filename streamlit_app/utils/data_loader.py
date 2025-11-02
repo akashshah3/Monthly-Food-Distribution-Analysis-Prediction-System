@@ -149,103 +149,92 @@ def get_recommendations():
     """Return recommendations data"""
     recommendations = [
         {
-            'category': 'Operational Improvements',
-            'title': 'Implement Predictive Distribution Planning',
-            'description': 'Use Decision Tree model (R² = 0.836) to forecast distribution needs',
-            'impact': 'High',
-            'effort': 'Medium',
-            'timeline': '3-6 months',
-            'priority': 1
+            'Recommendation': 'Implement Predictive Distribution Planning',
+            'Category': 'Operational Improvements',
+            'Impact': 'High',
+            'Effort': 'Medium',
+            'Timeline': '3-6 months',
+            'Priority': 'Critical'
         },
         {
-            'category': 'Operational Improvements',
-            'title': 'Automate Low-Performing Regions',
-            'description': 'Focus automation efforts on regions with below-average efficiency',
-            'impact': 'High',
-            'effort': 'High',
-            'timeline': '6-12 months',
-            'priority': 2
+            'Recommendation': 'Automate Low-Performing Regions',
+            'Category': 'Operational Improvements',
+            'Impact': 'High',
+            'Effort': 'High',
+            'Timeline': '6-12 months',
+            'Priority': 'High'
         },
         {
-            'category': 'Operational Improvements',
-            'title': 'Optimize Seasonal Inventory',
-            'description': 'Pre-position inventory based on identified seasonal patterns',
-            'impact': 'Medium',
-            'effort': 'Low',
-            'timeline': '1-3 months',
-            'priority': 3
+            'Recommendation': 'Optimize Seasonal Inventory',
+            'Category': 'Operational Improvements',
+            'Impact': 'Medium',
+            'Effort': 'Low',
+            'Timeline': '1-3 months',
+            'Priority': 'Medium'
         },
         {
-            'category': 'Data & Analytics',
-            'title': 'Enhance Data Collection',
-            'description': 'Collect additional features: weather data, demographic shifts, economic indicators',
-            'impact': 'High',
-            'effort': 'Medium',
-            'timeline': '3-6 months',
-            'priority': 4
+            'Recommendation': 'Enhance Data Collection',
+            'Category': 'Data & Analytics',
+            'Impact': 'High',
+            'Effort': 'Medium',
+            'Timeline': '3-6 months',
+            'Priority': 'High'
         },
         {
-            'category': 'Data & Analytics',
-            'title': 'Implement Real-Time Monitoring',
-            'description': 'Create live dashboard for distribution performance tracking',
-            'impact': 'Medium',
-            'effort': 'Medium',
-            'timeline': '3-4 months',
-            'priority': 5
+            'Recommendation': 'Implement Real-Time Monitoring',
+            'Category': 'Data & Analytics',
+            'Impact': 'Medium',
+            'Effort': 'Medium',
+            'Timeline': '3-4 months',
+            'Priority': 'Medium'
         },
         {
-            'category': 'Data & Analytics',
-            'title': 'Model Retraining Pipeline',
-            'description': 'Set up automated quarterly model retraining with new data',
-            'impact': 'Medium',
-            'effort': 'Low',
-            'timeline': '1-2 months',
-            'priority': 6
+            'Recommendation': 'Model Retraining Pipeline',
+            'Category': 'Data & Analytics',
+            'Impact': 'Medium',
+            'Effort': 'Low',
+            'Timeline': '1-2 months',
+            'Priority': 'Medium'
         },
         {
-            'category': 'Policy & Strategy',
-            'title': 'Best Practice Sharing',
-            'description': 'Document and share practices from top-performing states',
-            'impact': 'High',
-            'effort': 'Low',
-            'timeline': '1-2 months',
-            'priority': 7
+            'Recommendation': 'Best Practice Sharing',
+            'Category': 'Policy & Strategy',
+            'Impact': 'High',
+            'Effort': 'Low',
+            'Timeline': '1-2 months',
+            'Priority': 'High'
         },
         {
-            'category': 'Policy & Strategy',
-            'title': 'Targeted Intervention Program',
-            'description': 'Prioritize resources for bottom 10% performing districts',
-            'impact': 'High',
-            'effort': 'High',
-            'timeline': '6-12 months',
-            'priority': 8
+            'Recommendation': 'Targeted Intervention Program',
+            'Category': 'Policy & Strategy',
+            'Impact': 'High',
+            'Effort': 'High',
+            'Timeline': '6-12 months',
+            'Priority': 'High'
         },
         {
-            'category': 'Policy & Strategy',
-            'title': 'Efficiency Incentive Program',
-            'description': 'Create incentives for regions that improve distribution efficiency',
-            'impact': 'Medium',
-            'effort': 'Medium',
-            'timeline': '3-6 months',
-            'priority': 9
+            'Recommendation': 'Efficiency Incentive Program',
+            'Category': 'Policy & Strategy',
+            'Impact': 'Medium',
+            'Effort': 'Medium',
+            'Timeline': '3-6 months',
+            'Priority': 'Medium'
         },
         {
-            'category': 'Technology & Innovation',
-            'title': 'Deploy Classification Model',
-            'description': 'Use Gradient Boosting (Acc = 0.9995) to flag at-risk distributions',
-            'impact': 'High',
-            'effort': 'Low',
-            'timeline': '1-3 months',
-            'priority': 10
+            'Recommendation': 'Deploy Classification Model',
+            'Category': 'Technology & Innovation',
+            'Impact': 'High',
+            'Effort': 'Low',
+            'Timeline': '1-3 months',
+            'Priority': 'Critical'
         },
         {
-            'category': 'Technology & Innovation',
-            'title': 'Mobile App for Field Officers',
-            'description': 'Provide real-time predictions and recommendations on mobile devices',
-            'impact': 'Medium',
-            'effort': 'High',
-            'timeline': '6-9 months',
-            'priority': 11
+            'Recommendation': 'Mobile App for Field Officers',
+            'Category': 'Technology & Innovation',
+            'Impact': 'Medium',
+            'Effort': 'High',
+            'Timeline': '6-9 months',
+            'Priority': 'Low'
         }
     ]
     

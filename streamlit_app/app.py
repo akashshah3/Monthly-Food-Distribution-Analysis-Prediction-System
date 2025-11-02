@@ -170,7 +170,7 @@ with stat_col5:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 20px;'>
-    <p>🎓 <strong>University Data Science Project</strong> | Built with Streamlit & Python</p>
+    <p>🎓 <strong>Data Science Project made by Akash Shah</strong> | Built with Streamlit & Python</p>
     <p>📧 Analysis includes EDA, Feature Engineering, ML Modeling, and Business Intelligence</p>
 </div>
 """, unsafe_allow_html=True)
@@ -180,17 +180,6 @@ with st.sidebar:
     st.image("https://img.icons8.com/color/96/000000/food-bar.png", width=80)
     st.markdown("## 📊 Dashboard Navigation")
     st.markdown("Use the pages menu above to explore different sections.")
-    
-    st.markdown("---")
-    st.markdown("### 📌 Quick Links")
-    st.markdown("""
-    - 📊 Data Overview
-    - 📈 EDA
-    - 🤖 Models
-    - 🔍 Insights
-    - 💼 Business Impact
-    - 🎯 Recommendations
-    """)
     
     st.markdown("---")
     st.markdown("### 🎯 Key Metrics")
